@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #fefefe;
+    font-size: 20px;
+}
+.menu-bar {
+    display: none;
+}
+header {
+    width: 100%;
+}
+nav {
+    background: #023859;;
+    width: 100%;
+    font-size: 1.3em;
+}
+nav ul {
+    list-style: none;
+    text-align: right;
+}
+nav ul li {
+    display: inline-block;
+   position: relative;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 1em;
+    display: block;
+    /*width: 120%;*/
+   
+}
+nav ul li:hover{
+    background: #e6344a;
+}
+h1 {
+    font-size: 2em;
+    color: white;
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    
+}
+.children {
+    display: none;
+    position: absolute;
+    background: #023859;
+    text-align: left;
+}
+ul li:hover .children {
+    display: block;
+    text-align: left;
+   
+}
+.children li {
+    display: block;
+    border-bottom: 1px solid rgb(225,225,225,.5);
+}
+
+.children li a span {
+    float: right;
+    position: relative;
+   top: 3px;
+    margin-right: 0;
+}
+ @media only screen and (max-width: 850px) {
+    body {
+        padding-top: 80px;
+    }
+  
+  
+.menu-bar {
+    display: block;
+width: 100%;
+position: fixed;
+top: 0;
+background:red;
+  
+}        
+
+.titulo {
+    display: none;
+}
+.menu-bar .bt-menu {
+    display: block;
+    padding: 20px;
+    color: white;
+    overflow: hidden;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+   
+
+.menu-bar span{
+float: right;
+font-size: 40px;
+}
+ header nav {
+    background-color: rgb(222,1,8);
+    width: 80%;
+    height: calc(100% - 80px);
+    position: fixed;
+  left: -100%;
+    margin: 0;
+    /*overflow: scroll;*/
+}
+ header nav ul {
+    text-align: left;
+}
+header nav ul li {
+    display: block;
+    border-bottom: 1px solid rgb(225,225,225,.5);
+}
+}header nav ul li a {
+    padding: 12px;
+    display: block
+}
+ header nav ul li .children {
+    position: relative;
+    width: 100%;
+}
+header nav ul li .children li a {
+    margin-left:20px;
+}
+
+.icon-chevron-small-down {
+    float: right;
+}
+nav ul li:hover .children {
+    display: none;
+}
+ 

@@ -1,0 +1,116 @@
+/* clase de elemento */
+h1 {
+    font-size: 100px;
+}
+/* clase no atada a ningun elemento */
+.centrado {
+   margin: 0 auto 0 auto;
+    text-align: center;
+}
+/* clase atada a un elemento */
+p.color-fuente{
+    color: darkcyan;
+    text-align: center;
+    font-size: 25px;
+}
+h1 {
+    text-align: center;
+}
+div {
+    display: block;
+    margin: 0 auto 0 auto;
+}
+img {
+    display: block;
+    margin: 0 auto 0 auto;
+}
+p.fuente-enlace {
+    font-size: 50px;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Cinzel', serif;
+}
+p.centrado {
+    font-family: 'Train One', cursive;
+    font-size: 30px; 
+}
+.fuente-caveat {
+    font-family: 'Caveat', arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+p.peso-fuente {
+    text-align: center;
+    font-size: 2.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    /* font-weight: 600; */
+    /* font-weight: 900; */      
+    
+}
+.fuente-crazy {
+    font-size: 1.8em;
+    font-family: 'Gloria Hallelujah', cursive;
+    color:red;
+}
+p.color-nombre {
+    font-size: 70px;
+    color:darkcyan;
+    text-align: center;
+    
+    
+}
+.color-nombre-1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: rgb(235,218,31)
+
+}
+.color-nombre-2 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #41A320
+}
+/* caveat-600 - latin */
+@font-face {
+    font-family: 'Caveat';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/caveat-v10-latin-600.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/caveat-v10-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/caveat-v10-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/caveat-v10-latin-600.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/caveat-v10-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/caveat-v10-latin-600.svg#Caveat') format('svg'); /* Legacy iOS */
+  }
+  .box-1, .box-2, .box-3, .box-4, .box-5 {
+      width: 300px;
+      display: inline-block;
+  }
+  /* .box-1 {
+      background-color: darkcyan;
+  }
+  .box-2 {
+      background: goldenrod;
+  }
+  .box-3 {
+      background: gray;
+  }
+  .box-4 {
+      background: lightblue;
+  }
+  .box-5 {
+      background: salmon;
+  } */
+  p {
+      text-align: center;
+  }
+  img {
+      display: block;
+      margin: 0 auto 0 auto;
+  }
+        

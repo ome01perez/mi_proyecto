@@ -1,0 +1,14 @@
+div#main {
+    background-image: url("../img/logint.png");
+    width: 100%;
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-position: 93%;
+    background-size: 170px;
+}
+
+body {
+    background-image: url("../img/trenes.jpg");
+    background-repeat: no-repeat;
+
+}

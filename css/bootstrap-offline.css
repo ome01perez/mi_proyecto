@@ -1,0 +1,35 @@
+h2,h3 {
+    margin-left: 150px;
+}
+h1 {
+    text-align: center;
+}
+.style-container{
+    background: darkcyan;
+    color: white;
+    height: 50px;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.style-row {
+    margin-bottom: 30px;
+}
+.style-container-2 {
+    padding-bottom: 30px;
+}
+
+.style-col{
+
+    border: 1px solid rgba(48,48,48,.8);
+    box-shadow: 2px 2px 2px rgba(64,64,64, .7);
+    padding: 15px;
+}
+.rr {
+    text-align: center;
+    margin-left: 14px;
+}

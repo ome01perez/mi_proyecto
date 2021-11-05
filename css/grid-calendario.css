@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Explora&display=swap');
+
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: 90%;
+    max-width: 1300px;
+    border: 10px solid black;
+    margin: 0 auto;
+    font-size: 3em;
+    line-height: 50px;
+    text-align: center;
+    font-family: 'Explora', cursive;
+    font-weight: bold;
+ 
+}
+.contenedor > div {
+    display: block;
+    padding: 20px;
+    color: black;
+    background: honeydew;
+    box-shadow: 2px 2px 10px rgba(0,0,0,.25);
+}
+.contenedor .item-1 {
+    background: rgb(241, 84, 84);
+    grid-column-start: 1;
+    grid-column-end: 8;
+    font-weight: bold;
+}
+.contenedor .item-2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.contenedor .item {
+    background: aqua;
+  
+}
+
+.contenedor .cursor {
+    cursor: pointer;
+}
+.contenedor .cursore {
+    cursor: pointer;
+    background: tomato;
+}

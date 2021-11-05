@@ -1,0 +1,45 @@
+#navbar {
+    background-color: rgb(220,2,2);
+    color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+ 
+}
+#navbar-hidden {
+    background-color: rgb(220,2,2, .5);
+    color: white;
+    width: 100%;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+ul {
+    text-align: right;
+
+}
+li {
+    display: inline-block;
+    padding-right: 20px;
+    font-size: 1.5em;
+
+}
+p {
+    font-size: 1.5em;
+    clear: both;
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.logo-moto {
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.img-user {
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+}

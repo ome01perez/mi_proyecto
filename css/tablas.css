@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+table {
+    font-size: 2em;
+    border-collapse: collapse;
+    margin: 25px auto;
+}
+.numero {
+    background: darkseagreen;
+}
+th, td {
+    border: 3px solid gold ;
+    padding: 11px;
+    text-align: center;
+}
+th.head-fila {
+    background-color: rgb(200,200,200);
+}
+.cantidad {
+    width: 81%;
+}
+.head-persona {
+      background: darkgoldenrod;
+    font-weight: 900;
+}
+.head-cantidad {
+     background: darkseagreen;
+}
+.head-motocross {
+    background: cyan;
+}
+.head-ninja {
+    background: cyan;
+}
+.head-scooter {
+    background: cyan;
+}
+.head-deportivas {
+    background: cyan;
+}
+.head-señoriteras {
+    background: cyan;
+}
+.head-numero {
+    background: darkseagreen;
+}
+td.head-fila {
+    background: gray;
+}
+.head-eleccion1 {
+    background: darkturquoise;
+}
+.head-eleccion2 {
+    background: darkturquoise;
+}
+.head-nombre {
+    background: lightcoral;
+}
+.head-apellidos {
+    background: lightcoral;
+}
+.head-ciudad-residencia {
+    background: lightskyblue;
+}

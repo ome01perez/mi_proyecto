@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contactenos</title>
+</head>
+<body>
+    <h1>contactenos</h1>
+    <form action="registrar-info.php" method="post">
+        <fieldset>
+            <legend>ingrese la informacion</legend>
+        ingrese su nombre <br>
+        <input type="text" name="nombres"><br><br>
+        ingrese su apellidos<br>
+        <input type="text" name="apellidos"><br><br>
+        ingrese su consulta, peticion, queja o reclamo <br>
+        <textarea name="pregunta"  cols="60" rows="5"></textarea><br><br>
+        género <br>
+        <input type="radio" name="genero" value="masculino">masculino<br>
+        <input type="radio" name="genero" value="masculino">masculino<br>
+        <input type="radio" name="genero" value="indeterminado">indeterminado<br><br>
+        tipo de motos de interés<br>
+        <input type="checkbox" name="tipo-moto" value="Ninja">Ninja<br>
+        <input type="checkbox" name="tipo-moto" value="Motocross">Motocross<br>
+        <input type="checkbox" name="tipo-moto" value="Scooter">Scooter<br>
+        <input type="checkbox" name="tipo-moto" value="Deportivas">Deportivas<br><br>
+        ciudad de residencia<br>
+
+        <select name="ciudad">
+            <option value="neiva">neiva</option>
+            <option value="pitalito">pitalito</option>
+            <option value="garzon">garzón</option>
+            <option value="timana">timana</option>
+            <option value="san agustin">san agustín</option>
+            <option value="acevedo">acevedó</option>
+            <option value="oparapa">oporapa</option>
+            <option value="palestina">palestina</option>
+        </select><br><br>
+        <input type="submit" value="Enviar">
+    </fieldset>
+    </form>
+    <link rel="stylesheet" href="css/contactenos.css">
+</body>
+</html>

@@ -1,0 +1,8 @@
+@media only screen and (main-width: 550px) and (max-width: 800px) {
+    h1 {
+        text-align: center;
+        color: blue;
+        font-size: 4em;
+
+    }
+}
