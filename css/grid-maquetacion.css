@@ -224,14 +224,14 @@ footer {
         grid-template-columns: 1fr, auto;
         gap: 40px;
 
-        grid-template: "piedras"    auto    
-                       "masajes"    auto    
-                       "manicure"   auto  
-                       "maquillaje" auto    
-                       "peluqueria" auto  
-                       "depilacion" auto
-                       "productos"  auto
-                       "aceites"    auto /
+        grid-template: "suziki"    auto    
+                       "honda"    auto    
+                       "akt"   auto  
+                       "vivar" auto    
+                       "discover" auto  
+                       "motocross" auto
+                       "motos"  auto
+                       "marcas"    auto /
                         minmax(auto, 400px);       
     }
     .img-article {
